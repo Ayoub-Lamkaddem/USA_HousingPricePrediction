@@ -1,10 +1,13 @@
 import joblib
 import streamlit as st
 import pandas as pd
+import os
 
 # Charger modèle et scaler
-model = joblib.load('../ml/model/ridge.pkl')
-scaler = joblib.load('..//ml/artifacts/scaler.pkl')  # scaler sauvegardé dans le fichier d'entraînement
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "ml", "model", "ridge.pkl")
+model = joblib.load(MODEL_PATH)
+
+scaler = joblib.load('../ml/artifacts/scaler.pkl')  # scaler sauvegardé dans le fichier d'entraînement
 
 # Interface
 income = st.number_input("Avg. Area Income", min_value=17796, max_value=107701, value=68583)
