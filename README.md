@@ -1,16 +1,14 @@
-# Customer Review Classifier
+# USA Housing Price Prediction
 
-**Customer Review Classifier** is a machine learning project designed to analyze and classify customer reviews into three sentiment categories: Positive, Negative, and Neutral.
+**USA Housing Price Prediction** is a machine learning project designed to predict house prices in the United States based on key features such as average area income, house age, number of rooms, number of bedrooms, and area population.
 
-The project leverages advanced NLP techniques, including text preprocessing (cleaning, lemmatization, stopword removal) and powerful models like BERT with LoRA fine-tuning as well as classical machine learning models such as SGDClassifier.
+The project leverages regression models like Ridge Regression and SVR, along with data preprocessing (handling missing values, outliers, normalization) to ensure robust predictions.
 
-Additionally, the project uses a **MySQL database** to store user reviews and the predictions from the models, making it easier to track and analyze sentiment data over time.
-
-Users can input a review and quickly get a sentiment prediction, making it useful for businesses to understand customer feedback, monitor satisfaction, and make data-driven decisions.
+Additionally, the project integrates a Streamlit interface, allowing users to input housing features and instantly get a price prediction. This makes it useful for individuals, real estate agents, and businesses to better understand housing market trends and make data-driven decisions.
 
 ## Data
 
-The original data comes from the [Yelp Open Dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset), a rich resource containing millions of reviews.
+The original data comes from the [Kaggle](https://www.kaggle.com/datasets/farhankarim1/usa-house-prices), a rich resource containing millions of reviews.
 
 ## Installation
 
