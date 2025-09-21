@@ -8,7 +8,7 @@ Additionally, the project integrates a Streamlit interface, allowing users to in
 
 ## Data
 
-The original data comes from the [Kaggle](https://www.kaggle.com/datasets/farhankarim1/usa-house-prices), a rich resource containing millions of reviews.
+The original dataset comes from [Kaggle](https://www.kaggle.com/datasets/farhankarim1/usa-house-prices), specifically the USA Housing dataset, which contains 5,000 entries with features such as average area income, house age, number of rooms, number of bedrooms, and area population.
 
 ## Installation
 
