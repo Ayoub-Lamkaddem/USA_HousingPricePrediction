@@ -63,3 +63,9 @@ cd frontend
 # Run the frontend
     streamlit run app.py
 ```
+
+# Demo
+
+The project is deployed on **Streamlit Cloud**. 
+
+Try the app here: [USA Housing Price Prediction App](https://usahousingpriceprediction-xbezkduhet8gpjzoynktkb.streamlit.app/)
