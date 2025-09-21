@@ -10,6 +10,7 @@ model = joblib.load(MODEL_PATH)
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "ml", "artifacts", "scaler.pkl")
 scaler = joblib.load(MODEL_PATH)
 
+st.title("House Price Prediction in USA")
 # Interface
 income = st.number_input("Avg. Area Income", min_value=17796, max_value=107701, value=68583)
 age = st.number_input("Avg. Area House Age", min_value=2.64, max_value=9.51, value=5.97)
