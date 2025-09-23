@@ -2,7 +2,7 @@
 
 **USA Housing Price Prediction** is a machine learning project designed to predict house prices in the United States based on key features such as average area income, house age, number of rooms, number of bedrooms, and area population.
 
-The project leverages regression models like Ridge Regression and SVR, along with data preprocessing (handling missing values, outliers, normalization) to ensure robust predictions.
+The project leverages regression models like Ridge Regression, along with data preprocessing (handling missing values, outliers, normalization) to ensure robust predictions.
 
 Additionally, the project integrates a Streamlit interface, allowing users to input housing features and instantly get a price prediction. This makes it useful for individuals, real estate agents, and businesses to better understand housing market trends and make data-driven decisions.
 
